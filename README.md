@@ -48,7 +48,10 @@ python app/my_script.py
 Run the unemployment report:
 
 ```sh
-python app/unemployment.py
+#python app/unemployment.py
+
+python -m app.unemployment
+
 ```
 
 
