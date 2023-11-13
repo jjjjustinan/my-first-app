@@ -1,3 +1,5 @@
+#IMPORTS AT THE TOP
+
 import os
 from dotenv import load_dotenv 
 import requests
@@ -7,6 +9,7 @@ from statistics import mean
 from plotly.express import line
 
 
+#ENVIRONMENT VARIABLES AND CONSTANTS
 load_dotenv() # go look in the .env file for any env vars
 
 API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
