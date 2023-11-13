@@ -37,12 +37,15 @@ def send_email(recipient_address=SENDER_ADDRESS, subject="[Shopping Cart App] Te
         print(err)
 
 
-user_address = input("Please enter your email address: ")
+if __name__ == "__main__":
+
+    # ONLY WANT TO DO IF RUNNING THIS FILE FROM COMMAND LINE
+    # (NOT IF IMPORTING A FUNCTION FROM THIS FILE)
+
+    user_address = input("Please enter your email address: ")
 
 
-
-
-my_content = """
+    my_content = """
 
     <img
         src="https://img.freepik.com/free-vector/flat-ice-cream-collection_23-2148982427.jpg"
@@ -60,4 +63,4 @@ my_content = """
         <li>Strawberry</li>
     </ul>
 """
-send_email(html_content=my_content, recipient_address=user_address)
+    send_email(html_content=my_content, recipient_address=user_address)
