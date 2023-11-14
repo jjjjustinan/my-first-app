@@ -1,5 +1,6 @@
 
 
+
 # IMPORTS AT THE TOP
 
 import os
@@ -108,4 +109,3 @@ if __name__ == "__main__":
     """
 
     send_email(recipient_address=user_address, html_content=content, subject="Your Unemployment Report")
-
