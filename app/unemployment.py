@@ -1,4 +1,5 @@
 
+
 # IMPORTS AT THE TOP
 
 import os
@@ -11,6 +12,8 @@ import requests
 from plotly.express import line
 
 from app.email_service import send_email
+
+print("BACK IN UNEMPLOYMENT FILE")
 
 
 # ENVIRONMENT VARIABLES AND CONSTANTS
@@ -105,3 +108,4 @@ if __name__ == "__main__":
     """
 
     send_email(recipient_address=user_address, html_content=content, subject="Your Unemployment Report")
+
