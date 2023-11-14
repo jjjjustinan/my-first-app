@@ -1,9 +1,6 @@
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> main
 # this is the "test/email_service_test.py" file...
 
 from app.email_service import send_email
