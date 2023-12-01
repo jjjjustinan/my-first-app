@@ -13,7 +13,12 @@ python-dotenv
 
 sendgrid==6.5.0
 
+
+# for web app:
 flask
+gunicorn
+
+
 
 # TEST
 
